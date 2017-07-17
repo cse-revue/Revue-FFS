@@ -59,12 +59,13 @@ check if link exist
 composer --version
 ```
 
-### install laravel
+### Install laravel
 ```sh
 composer global require "laravel/installer"
 ```
 
-### start a new proj
+### Start a new proj
+blog is the name of the projest
 ```sh
 laravel new blog
 ```
