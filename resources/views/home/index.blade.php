@@ -2,20 +2,20 @@
 
 @section('content')
   <!-- Intro Header -->
-  <header class="intro">
+  <header class="intro" style="margin-top: 50px">
     <div class="intro-body">
       <div class="container">
         <div class="row">
-          <div class="col-md-8 col-md-offset-2">
+          <div class="col-xs-10 col-md-8 col-md-offset-2">
             <h1 class="brand-heading">CSE Revue</h1>
             <p class="intro-text">
-              Meme Wars<br />
+              Meme Wars<br>
               Get Tickets Now
             </p>
-            <br />
-            <a href="#about" class="btn btn-circle page-scroll">
+            <br>
+{{--             <a href="#about" class="btn btn-circle page-scroll">
               <i class="fa fa-angle-double-down animated"></i>
-            </a>
+            </a> --}}
           </div>
         </div>
       </div>

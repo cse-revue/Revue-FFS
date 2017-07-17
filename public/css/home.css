@@ -3,55 +3,62 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
+
+/*-------- General Html Tag CSS ---------*/
 body {
   width: 100%;
   height: 100%;
   font-family: "Lora", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: black;
-  background-color: white;
+  background-color: #131212;
+
 }
+
 html {
   width: 100%;
   height: 100%;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+
+h1,h2,h3,h4,h5,h6 {
   margin: 0 0 35px;
   text-transform: uppercase;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
   letter-spacing: 1px;
+  color: white;
 }
+
 p {
   margin: 0 0 25px;
   font-size: 18px;
   line-height: 1.5;
+  color: white;
 }
-@media (min-width: 768px) {
+
+/*For when screen hits the px size*/
+/*@media (min-width: 768px) {
   p {
     margin: 0 0 35px;
     font-size: 20px;
     line-height: 1.6;
+    color: white;
   }
-}
-a {
+}*/
+
+/*a {
   color: #42DCA3;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
-}
-a:hover,
-a:focus {
+}*/
+
+/*a:hover, a:focus {
   text-decoration: none;
   color: #1d9b6c;
-}
-.light {
-  font-weight: 400;
-}
+}*/
+/*-------- END ---------*/
+
+/*-------- Navbar CSS ---------*/
 .navbar-brand {
   padding: 0px; /* firefox bug fix */
 }
@@ -61,7 +68,6 @@ a:focus {
 }
 .navbar-custom {
   margin-bottom: 0;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   text-transform: uppercase;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   background-color: black;
@@ -78,60 +84,66 @@ a:focus {
 .navbar-custom .navbar-brand {
   font-weight: 700;
 }
-.navbar-custom .navbar-brand:focus {
+/*.navbar-custom .navbar-brand:focus {
   outline: none;
-}
+}*/
 .navbar-custom a {
   color: white;
 }
-.navbar-custom .nav li a {
+/*.navbar-custom .nav li a {
   -webkit-transition: background 0.3s ease-in-out;
   -moz-transition: background 0.3s ease-in-out;
   transition: background 0.3s ease-in-out;
-}
+}*/
 .navbar-custom .nav li a:hover {
   color: rgba(255, 255, 255, 0.8);
   outline: none;
   background-color: transparent;
 }
-.navbar-custom .nav li a:focus,
-.navbar-custom .nav li a:active {
+.navbar-custom .nav li a:focus, .navbar-custom .nav li a:active {
   outline: none;
   background-color: transparent;
 }
 .navbar-custom .nav li.active {
   outline: none;
 }
-.navbar-custom .nav li.active a {
+/*.navbar-custom .nav li.active a {
   background-color: rgba(255, 255, 255, 0.3);
-}
-.navbar-custom .nav li.active a:hover {
+}*/
+/*.navbar-custom .nav li.active a:hover {
   color: white;
-}
-@media (min-width: 768px) {
+}*/
+
+/*For when screen hits the px size*/
+/*@media (min-width: 768px) {
   .navbar-custom {
     padding: 20px 0;
     border-bottom: none;
     letter-spacing: 1px;
-    background: transparent;
+    background-color: black;
+} */
+/*
     -webkit-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
     -moz-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
     transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
-  }
-  .navbar-custom.top-nav-collapse {
+*/
+/*  .navbar-custom.top-nav-collapse {
     padding: 0;
     background: black;
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   }
-}
+*/
+/*-------- END ---------*/
+
+/*-------- Main Title CSS ---------*/
 .intro {
   display: table;
   width: 100%;
   height: auto;
-  padding: 100px 0;
   text-align: center;
   color: white;
   background: url(../img/bg.jpg) no-repeat bottom center scroll;
+  background-size: contain;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -148,10 +160,11 @@ a:focus {
 .intro .intro-body .intro-text {
   font-size: 18px;
 }
+
+/*For when screen hits the px size*/
 @media (min-width: 768px) {
   .intro {
     height: 100%;
-    padding: 0;
   }
   .intro .intro-body .brand-heading {
     font-size: 100px;
@@ -160,7 +173,10 @@ a:focus {
     font-size: 26px;
   }
 }
-.btn-circle {
+/*-------- END ---------*/
+
+/*-------- Button CSS ---------*/
+/*.btn-circle {
   width: 70px;
   height: 70px;
   margin-top: 15px;
@@ -223,7 +239,9 @@ a:focus {
     -moz-transform: scale(1);
     transform: scale(1);
   }
-}
+}*/
+/*-------- END ---------*/
+
 .content-section {
   padding-top: 100px;
 }
@@ -268,7 +286,7 @@ a:focus {
 ul.banner-social-buttons {
   margin-top: 0;
 }
-@media (max-width: 1199px) {
+/*@media (max-width: 1199px) {
   ul.banner-social-buttons {
     margin-top: 15px;
   }
@@ -282,13 +300,16 @@ ul.banner-social-buttons {
   ul.banner-social-buttons li:last-child {
     margin-bottom: 0;
   }
-}
-footer {
-  padding: 50px 0;
-}
+}*/
+
+/*footer {
+  
+}*/
 footer p {
-  margin: 0;
+  font-size: smaller;
+  margin: 10px;
 }
+
 ::-moz-selection {
   text-shadow: none;
   background: #fcfcfc;

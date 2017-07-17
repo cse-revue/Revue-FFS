@@ -44,5 +44,9 @@ Route::get('/', function () {
     });
 
     Route::get('/home/test', function () {
+        return view('home.testEnv');
+    });
+
+    Route::get('/nav', function () {
         return view('includes.navbar');
     });

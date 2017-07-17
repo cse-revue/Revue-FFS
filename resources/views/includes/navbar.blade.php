@@ -7,7 +7,7 @@
       </button>
       <a class="navbar-brand" href="/home/index">
         <span><img src="/img/logo.png"></span>
-        <span class="light">CSE</span> Revue 
+        CSE Revue 
       </a>
     </div>
 
