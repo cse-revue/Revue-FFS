@@ -1,6 +1,6 @@
 # Revue-FFS
-## STOP READING THIS IF YOU ALREADY HAVE HOMESTEAD RUNNING OR ON WINDOWS
-## YOU DONT NEED IT JUST USE YOUR TRASHY VM
+### STOP READING THIS IF YOU ALREADY HAVE HOMESTEAD RUNNING OR ON WINDOWS
+### YOU DONT NEED IT JUST USE YOUR TRASHY VM
 
 # Guide to laravel (without VM) mainly for mac os user
  
@@ -65,7 +65,7 @@ composer global require "laravel/installer"
 ```
 
 ### Start a new proj
-blog is the name of the projest
+blog is the name of the project
 ```sh
 laravel new blog
 ```
