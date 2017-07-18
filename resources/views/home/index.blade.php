@@ -27,6 +27,7 @@
       <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
+                <h2>Revue Video</h2>
                 <div class="embed-responsive embed-responsive-16by9"> 
                     <iframe width="560" height="315" class="embed-responsive-item"  src="https://www.youtube.com/embed/F2exflhQxyA" frameborder="0" allowfullscreen></iframe>              
                 </div>

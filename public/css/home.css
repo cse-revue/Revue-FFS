@@ -262,6 +262,63 @@ p {
 .sponsors .sponsor-body {
   text-align: center;
 }
+
+.sponsor .sponsor-body .jumbotron {
+  background-color: #878787;
+}
+
+.sponsor .sponsor-body #sponsor-image-table {
+    table-layout: fixed;
+    background-color: darkgray;
+    width: 100%;
+}
+
+.sponsor .sponsor-body #sponsor-image-table td {
+    text-align: center;
+    border: 2px solid fuchsia;
+    box-sizing: border-box;
+}
+
+.history .history-body .jumbotron {
+  background-color: #878787;
+}
+
+.faq .faq-body .jumbotron {
+  background-color: #878787;
+}
+
+.faq .faq-body .question, .faq .faq-body .dropdown-arrow {
+    display: inline-block;
+}
+
+.dropdown-arrow {
+  height: 30px;
+  text-align: center;
+  /* rotate arrow to right when loaded - delete if only default dropdown arrow is needed */
+  transform: rotate(270deg);
+  -webkit-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+}
+
+/* FAQ answer text (Hidden by Default) */
+.faq .faq-body .dropdown-answer {
+    font-size: 10px;
+    display: none;
+    z-index: 1;
+}
+
+#hBox {
+    width: 300px;
+    height: 70px;
+    border: 5px solid white;
+    vertical-align: middle;
+    
+}
+
+#faq-container {
+    border: 1px solid white;
+}
+
 .btn {
   text-transform: uppercase;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
