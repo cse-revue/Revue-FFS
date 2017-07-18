@@ -43,10 +43,19 @@ Route::get('/', function () {
         return view('home.faqs');
     });
 
-    Route::get('/home/test', function () {
-        return view('home.testEnv');
+    Route::get('/home/sponsorship-opportunities', function () {
+        return view('home.sponsorship-opportunities');
+    });    
+
+    Route::get('/test', function () {
+        return view('home.test');
     });
 
-    Route::get('/nav', function () {
-        return view('includes.navbar');
+    Route::get('/test/404', function () {
+        return view('error.404');
     });
+
+    Route::get('/test/500', function () {
+        return view('error.500');
+    });
+

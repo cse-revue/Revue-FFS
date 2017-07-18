@@ -8,11 +8,10 @@
         <div class="row">
           <div class="col-xs-10 col-md-8 col-md-offset-2">
             <h1 class="brand-heading">CSE Revue</h1>
-            <p class="intro-text">
-              Meme Wars<br>
-              Get Tickets Now
-            </p>
-            <br>
+            <div class= "intro-box">
+            <p class="intro-text">The Source Awakens</p>
+            <p class="intro-text">Get Tickets Now</p>
+            </div>
 {{--             <a href="#about" class="btn btn-circle page-scroll">
               <i class="fa fa-angle-double-down animated"></i>
             </a> --}}
@@ -47,5 +46,5 @@
     </div>
   </section>
   
-  {{-- @include('includes.sponsors') --}}
+  @include('includes.sponsors')
 @endsection

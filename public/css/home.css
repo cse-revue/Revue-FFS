@@ -10,8 +10,12 @@ body {
   height: 100%;
   font-family: "Lora", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: black;
-  background-color: #131212;
-
+  background-color: #040404;
+  /*User cannot highlight stuff*/
+  -webkit-user-select: none; /* Chrome, Opera, Safari */
+  -moz-user-select: none; /* Firefox 2+ */
+  -ms-user-select: none; /* IE 10+ */
+  user-select: none; /* Standard syntax */
 }
 
 html {
@@ -32,6 +36,7 @@ p {
   margin: 0 0 25px;
   font-size: 18px;
   line-height: 1.5;
+  font-family: 'Open Sans', sans-serif;
   color: white;
 }
 
@@ -77,10 +82,9 @@ p {
   background-color: rgba(255, 255, 255, 0.2);
   font-size: 12px;
 }
-.navbar-custom .navbar-toggle:focus,
-.navbar-custom .navbar-toggle:active {
+/*.navbar-custom .navbar-toggle:focus, .navbar-custom .navbar-toggle:active {
   outline: none;
-}
+}*/
 .navbar-custom .navbar-brand {
   font-weight: 700;
 }
@@ -143,11 +147,10 @@ p {
   text-align: center;
   color: white;
   background: url(../img/bg.jpg) no-repeat bottom center scroll;
-  background-size: contain;
+  background-size: cover;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  background-size: cover;
   -o-background-size: cover;
 }
 .intro .intro-body {
@@ -155,10 +158,13 @@ p {
   vertical-align: middle;
 }
 .intro .intro-body .brand-heading {
-  font-size: 40px;
+  font-size: xx-large;
+  border:10px white solid;
+  display: block;
 }
+
 .intro .intro-body .intro-text {
-  font-size: 18px;
+  font-size: 26px;
 }
 
 /*For when screen hits the px size*/
@@ -168,8 +174,10 @@ p {
   }
   .intro .intro-body .brand-heading {
     font-size: 100px;
+    border:10px white solid;
+    display: block;
   }
-  .intro .intro-body .intro-text {
+  .intro .intro-body .intro-box .intro-text{
     font-size: 26px;
   }
 }
@@ -242,10 +250,9 @@ p {
 }*/
 /*-------- END ---------*/
 
-.content-section {
-  padding-top: 100px;
-}
-.download-section {
+
+/*------Extra classes I can't find-------*/
+/*.download-section {
   width: 100%;
   padding: 50px 0;
   color: white;
@@ -253,15 +260,23 @@ p {
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
+  -o-background-size: cover; 
   background-size: cover;
-  -o-background-size: cover;
+}*/
+/*------END-------*/
+
+.content-section {
+  padding-top: 100px;
 }
+/*------Sponsor Section at the bottom of every page------*/
 .sponsors {
   background-color: grey;
 }
-.sponsors .sponsor-body {
+.sponsors .sponsor-body p{
   text-align: center;
+  margin: 0px;
 }
+<<<<<<< HEAD
 
 .sponsor .sponsor-body .jumbotron {
   background-color: #878787;
@@ -320,6 +335,22 @@ p {
 }
 
 .btn {
+=======
+/*------END------*/
+
+/*-------Footer-------*/
+footer {
+  text-align: right;
+}
+footer p {
+  font-size: smaller;
+  margin: 5px;
+}
+/*-------END-------*/
+
+/*--------Extra CSS that I can't seem to find its classes-------*/
+/*.btn {
+>>>>>>> 8a7a863b5324825114c9968a09ee6e645d7aef50
   text-transform: uppercase;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
@@ -339,10 +370,10 @@ p {
   outline: none;
   color: black;
   background-color: #42DCA3;
-}
-ul.banner-social-buttons {
+}*/
+/*ul.banner-social-buttons {
   margin-top: 0;
-}
+}*/
 /*@media (max-width: 1199px) {
   ul.banner-social-buttons {
     margin-top: 15px;
@@ -357,14 +388,6 @@ ul.banner-social-buttons {
   ul.banner-social-buttons li:last-child {
     margin-bottom: 0;
   }
-}*/
-
-/*footer {
-  
-}*/
-footer p {
-  font-size: smaller;
-  margin: 10px;
 }
 
 ::-moz-selection {
@@ -385,4 +408,5 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: rgba(255, 255, 255, 0.2);
-}
+}*/
+/*--------END-------*/
