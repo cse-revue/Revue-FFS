@@ -21,7 +21,8 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
 
     <!-- Theme CSS -->
-    {{ HTML::style('css/home.css') }}
+    {{-- {{ HTML::style('css/home.css') }} --}}
+    <link href="{{ URL::asset('css/home.css') }}" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -129,7 +130,8 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     
     <!-- Theme JavaScript -->
-    {{ HTML::script('js/grayscale.min.js') }}
+    {{-- {{ HTML::script('js/grayscale.min.js') }} --}}
+    <link href="{{ URL::asset('js/grayscale.min.js') }}" rel="script">
 
 </body>
 

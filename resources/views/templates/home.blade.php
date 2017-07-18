@@ -59,6 +59,6 @@
     <!-- Theme JavaScript -->
     {{-- HTML has been deprecated since 5.0 --}}
     {{-- {{ HTML::script('js/grayscale.min.js') }} --}}
-    <link href="{{ URL::asset('js/grayscale.min.js') }}" rel="script">
+    {{-- <link href="{{ URL::asset('js/grayscale.min.js') }}" rel="script"> --}}
   </body>
 </html>
