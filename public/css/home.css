@@ -278,12 +278,34 @@ p {
 }
 <<<<<<< HEAD
 
-.sponsor .sponsor-body .jumbotron {
+.history .history-body .jumbotron {
   background-color: #878787;
 }
 
-.history .history-body .jumbotron {
+/* Sponsor page code below */
+
+.sponsor .sponsor-body .jumbotron {
   background-color: #878787;
+}
+/* experimental table
+.sponsor .sponsor-body .jumbotron table {
+  table-layout: fixed;
+  width: 100%;
+}
+
+.sponsor .sponsor-body .jumbotron table tr {
+  border: 1px solid blue;
+  table-layout: fixed;
+  width: 100%;
+}
+*/
+/* FAQ page code below */
+
+#faqTitle {
+  width: 300px;
+  height: 70px;
+  border: 5px solid white;
+  vertical-align: middle;
 }
 
 .faq .faq-body .jumbotron {
@@ -297,10 +319,6 @@ p {
 .dropdown-arrow {
   height: 30px;
   text-align: center;
-  /* rotate arrow to right when loaded - delete if only default dropdown arrow is needed */
-  transform: rotate(270deg);
-  -webkit-transform: rotate(270deg);
-  -ms-transform: rotate(270deg);
 }
 
 /* FAQ answer text (Hidden by Default) */
@@ -316,14 +334,6 @@ p {
 
 .faq .faq-body .question p {
   font-size: 18px;
-}
-
-#hBox {
-  width: 300px;
-  height: 70px;
-  border: 5px solid white;
-  vertical-align: middle;
-
 }
 
 .btn {

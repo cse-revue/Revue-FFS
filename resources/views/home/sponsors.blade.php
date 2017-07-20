@@ -18,6 +18,32 @@
       <div class="jumbotron">
         <p>Sponsorship of the CSE Revue Society gives us the chance to provide better events for our society as well as helping us present a quality show for the wider UNSW community. </p>
         <p>It is only through the generous support of the organisations below that a major student production such as CSE Revue continues to provide opportunities for students to broaden their tertiary education experience.</p>
+        <!-- EXPERIMENTAL TABLE
+        <table>
+          <tr>
+            <td>HELLO</td>
+            <td>ANOTHER</td>
+            <td>TABLE</td>
+            <td>DATA</td>
+          </tr>
+          <tr>
+            <td>HELLO</td>
+            <td>ANOTHER</td>
+            <td>TABLE</td>
+            <td>DATA</td>
+          </tr>
+          <tr>
+            <td>HELLO</td>
+            <td>ANOTHER</td>
+            <td>TABLE</td>
+            <td>DATA</td>
+          </tr>
+          <tr>
+            <td>SPECIAL SINGLE</td>
+          </tr>
+        </table>
+        -->
+      <br/>
         <!-- Sponsor image section HERE-->
         <table class="table table-no-border">
 {{--         @foreach($sponsors as $sponsor)

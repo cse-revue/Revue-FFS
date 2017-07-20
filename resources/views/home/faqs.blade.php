@@ -28,21 +28,23 @@
         </div>
         <div class="row">
           <div class="col-md-1"> </div>
-          <div class="col-md-7">
-            <div id="hBox">
+          <div class="col-sm-6">
+            <div id="faqTitle">
               <h1 align="center">FAQ</h1>
             </div>
+          </div>
+          <div class="col-md-7">
             <br/>
             <div class="jumbotron" style="padding:40px">
               <!-- FAQ code for one question -->
               <div id="faq-container">
                 <div class="question"><p><strong>What is a CSE?</strong></p></div>
-                <div class="dropdown-arrow" onclick="clickMe(this)"><p>&#x25BC</p></div>
+                <div class="dropdown-arrow" onclick="toggleDisplay(this)"><p>&#x25BC</p></div>
                 <div class="dropdown-answer"><p>The School of Computer Science & Engineering, part of the Faculty of Engineering.</p></div>
                 <br/>
 
                 <div class="question"><p><strong>What is a CSE?</strong></p></div>
-                <div class="dropdown-arrow" onclick="clickMe(this)"><p>&#x25BC</p></div>
+                <div class="dropdown-arrow" onclick="toggleDisplay(this)"><p>&#x25BC</p></div>
                 <div class="dropdown-answer"><p>The School of Computer Science & Engineering, part of the Faculty of Engineering.</p></div>
                 <br/>
               </div>
@@ -72,15 +74,14 @@
     $( ".faq .faq-body #faq-container .dropdown-arrow" ).click(function() {
       $(".faq .faq-body #faq-container .dropdown-answer").toggle();
     });    */
-    function clickMe(elem){
+    function toggleDisplay(elem){
       //Rotates arrow to face downwards when clicked on (and answer is revealed)
-      if ( $(elem).css("transform") != 'none'){
-        $(elem).css("transform", "none");
-      }
-      else {
+      if ( $(elem).css("transform") == 'none'){
         $(elem).css("transform", "rotate(270deg)");
       }
-
+      else {
+        $(elem).css("transform", "none");
+      }
       //Toggle answer text for this question
       //alert(elem.closest('.faq-container').find('.dropdown-answer').className);
       //nextElementSibling finds next element node (skips text nodes)
