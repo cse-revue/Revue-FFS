@@ -18,31 +18,30 @@
       <div class="jumbotron">
         <p>Sponsorship of the CSE Revue Society gives us the chance to provide better events for our society as well as helping us present a quality show for the wider UNSW community. </p>
         <p>It is only through the generous support of the organisations below that a major student production such as CSE Revue continues to provide opportunities for students to broaden their tertiary education experience.</p>
-        <!-- EXPERIMENTAL TABLE
+      <br/>
         <table>
           <tr>
-            <td>HELLO</td>
-            <td>ANOTHER</td>
-            <td>TABLE</td>
-            <td>DATA</td>
+            <td class="left-images"><a href="/home/index" target="_blank"><img src="../img/doge.jpg" width="200px" height="120px"/></a></td>
+            <td><a href="/home/index" target="_blank"><img src="../img/doge.jpg" width="200px" height="120px"/></a></td>
+            <td><a href="/home/index" target="_blank"><img src="../img/doge.jpg" width="200px" height="120px"/></a></td>
+            <td class="right-images"><a href="/home/index" target="_blank"><img src="../img/doge.jpg" width="200px" height="120px"/></a></td>
+          </tr>
+          <tr id="mid-row-img">
+            <td class="left-images"><a href="/home/index" target="_blank"><img src="../img/doge.jpg" width="200px" height="120px"/></a></td>
+            <td><a href="/home/index" target="_blank"><img src="../img/doge.jpg" width="200px" height="120px"/></a></td>
+            <td><a href="/home/index" target="_blank"><img src="../img/doge.jpg" width="200px" height="120px"/></a></td>
+            <td class="right-images"><a href="/home/index" target="_blank"><img src="../img/doge.jpg" width="200px" height="120px"/></a></td>
           </tr>
           <tr>
-            <td>HELLO</td>
-            <td>ANOTHER</td>
-            <td>TABLE</td>
-            <td>DATA</td>
+            <td class="left-images"><a href="/home/index" target="_blank"><img src="../img/doge.jpg" width="200px" height="120px"/></a></td>
+            <td><a href="/home/index" target="_blank"><img src="../img/doge.jpg" width="200px" height="120px"/></a></td>
+            <td><a href="/home/index" target="_blank"><img src="../img/doge.jpg" width="200px" height="120px"/></a></td>
+            <td class="right-images"><a href="/home/index" target="_blank"><img src="../img/doge.jpg" width="200px" height="120px"/></a></td>
           </tr>
           <tr>
-            <td>HELLO</td>
-            <td>ANOTHER</td>
-            <td>TABLE</td>
-            <td>DATA</td>
-          </tr>
-          <tr>
-            <td>SPECIAL SINGLE</td>
+            <td colspan="4" id="single-sponsor-row"><a href="/home/index" target="_blank"><img src="../img/doge.jpg" width="200px" height="120px"/></a></td>
           </tr>
         </table>
-        -->
       <br/>
         <!-- Sponsor image section HERE-->
         <table class="table table-no-border">
