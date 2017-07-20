@@ -18,41 +18,7 @@
       <div class="jumbotron">
         <p>Sponsorship of the CSE Revue Society gives us the chance to provide better events for our society as well as helping us present a quality show for the wider UNSW community. </p>
         <p>It is only through the generous support of the organisations below that a major student production such as CSE Revue continues to provide opportunities for students to broaden their tertiary education experience.</p>
-        <table id="sponsor-image-table">
-          <!--table row-->  
-          <tr>
-            <td><a href="_blank"><img src="../img/logo.png" width="100px" height="100px" target="_blank"/></a></td>
-            <td><img src="../img/logo.png" width="150px" height="100px" target="_blank"/></td>
-            <td><img src="../img/logo.png" width="150px" height="100px" target="_blank"/></td>
-            <td><img src="../img/logo.png" width="150px" height="100px" target="_blank"/></td>
-          </tr>
-          <tr>
-            <td><img src="#" width="100px" height="100px" target="_blank"/></td>
-            <td><img src="#" width="100px" height="100px" target="_blank"/></td>
-            <td><img src="#" width="100px" height="100px" target="_blank"/></td>
-            <td><img src="#" width="100px" height="100px" target="_blank"/></td>
-          </tr>
-          <tr>
-            <td><img src="#" width="100px" height="100px" target="_blank"/></td>
-            <td><img src="#" width="100px" height="100px" target="_blank"/></td>
-            <td><img src="#" width="100px" height="100px" target="_blank"/></td>
-            <td><img src="#" width="100px" height="100px" target="_blank"/></td>
-          </tr>
-        </table>
-        <br/><br/>
-        <!-- Sponsor image section
-        <div class="col-sm-4 text-center">
-        <img src="#" width="100px" height="100px" target="_blank"/></td>
-        </div>
-        <div class="col-sm-4 text-center">
-        <img src="#" width="100px" height="100px" target="_blank"/></td>
-        </div>
-        <div class="col-sm-4 text-center">
-        <img src="#" width="100px" height="100px" target="_blank"/></td>
-        </div>
-
-        -->
-        <!-- Sponsor image section HERE
+        <!-- Sponsor image section HERE-->
         <table class="table table-no-border">
 {{--         @foreach($sponsors as $sponsor)
             <tr>
@@ -61,7 +27,6 @@
             </tr>
         @endforeach --}}
         </table>
-        -->
         <h4>Interested in a sponsorship CSE Revue? <a href="/home/sponsorship-opportunities">Learn how to become sponsor&nbsp;</a></h4>
       </div>
     </div>
