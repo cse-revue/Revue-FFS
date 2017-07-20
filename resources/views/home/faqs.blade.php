@@ -49,6 +49,6 @@
     </div>
   
 </header>
-  {{-- @include('includes.sponsors')       --}}
+  @include('includes.sponsors')      
 @endsection
 

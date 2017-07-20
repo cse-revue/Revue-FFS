@@ -29,7 +29,6 @@
         <li><a href="https://www.youtube.com/user/cserevue"><i class="fa fa-youtube" aria-hidden="true"/></i></a></li>
       </ul>                
     </div>
-  <!-- /.navbar-collapse -->
+    
   </div>
-<!-- /.container -->
 </nav>

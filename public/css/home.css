@@ -1,4 +1,4 @@
-/*!
+ /*!
  * Start Bootstrap - Grayscale v3.3.7+1 (http://startbootstrap.com/template-overviews/grayscale)
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
@@ -177,6 +177,7 @@ p {
     border:10px white solid;
     display: block;
   }
+
   .intro .intro-body .intro-box .intro-text{
     font-size: 26px;
   }
@@ -266,8 +267,20 @@ p {
 /*------END-------*/
 
 .content-section {
-  padding-top: 100px;
+  padding-top: 50px;
 }
+
+#about .about-section h2{
+  color: #92B966;
+}
+
+#about .about-section p{
+  text-align: justify;
+  -moz-text-align-last: center;
+  text-align-last: center;
+  font-size: 17px;
+}
+
 /*------Sponsor Section at the bottom of every page------*/
 .sponsors {
   background-color: grey;
@@ -282,6 +295,9 @@ p {
 footer {
   text-align: right;
 }
+// footer div {
+//   float: right;
+// }
 footer p {
   font-size: smaller;
   margin: 5px;
